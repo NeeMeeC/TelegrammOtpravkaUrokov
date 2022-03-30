@@ -45,7 +45,7 @@ public class TEST01 {
                             /*System.out.println("***Приветствие***\n\n"); */ System.out.println(row.getCell(2).getStringCellValue() + "\n");
                             System.out.println("      Сегодня мы пройдём " + row.getCell(0).getStringCellValue());
                             System.out.println("      Название урока: " + row.getCell(1).getStringCellValue());
-                            System.out.println("      Дополнительные материалы к уроку вы можете найти тут: " + row.getCell(3).getStringCellValue());
+                            System.out.println("      Дополнительные материалы к уроку вы можете найти и скачать тут: " + row.getCell(3).getStringCellValue());
                         }
 
                     } catch (Exception e) {
